@@ -35,7 +35,7 @@ const Shop = () => {
         </div>
 
         {/* Cart section */}
-        <div className='w-full flex justify-center mt-10 md:fixed right-0 md:w-[300px] rounded bg-slate-300 px-4'>
+        <div className='w-full flex justify-center mt-10 md:fixed right-0 md:w-[300px] rounded bg-slate-300 px-4 py-4'>
 
           <Cart cart={cart}></Cart>
         </div>
